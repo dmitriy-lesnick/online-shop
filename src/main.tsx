@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 let root = createRoot(document.getElementById('root')!)
 
-let hhtp = createHttpPlagin('http://faceprog.ru/reactcourseapi')
+let hhtp = createHttpPlagin('https://faceprog.ru/reactcourseapi')
 let api = createApi(hhtp)
 
 let storage = new RootStorage(api, localStorage)
