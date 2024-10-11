@@ -1,0 +1,58 @@
+@import url("./animation.css");
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    background-color: aliceblue;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.loader {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #98abeb;
+    border-top: 3px solid #3755b8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: spin 200ms linear infinite;
+    -webkit-animation: spin 500ms linear infinite;
+}
+
+.loading {
+    color: #5977db;
+    opacity: 0.8;
+    font-size: 40px;
+    text-align: center;
+    max-width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+footer {
+    margin-top: auto;
+}

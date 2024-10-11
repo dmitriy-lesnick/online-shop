@@ -1,0 +1,40 @@
+.element {
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: #5595e9;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.link {
+    background-color: #4e8ee2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #5595e9;
+}
+
+.link:active {
+    background-color: #4e8ee2;
+}

@@ -1,0 +1,34 @@
+.page {
+    padding-top: 100px;
+}
+
+.wrp {
+    background-color: #6eb5e4;
+    color: #fff;
+    padding: 20px 70px;
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid rgb(26, 66, 119);
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #1283ce;
+    padding: 5px 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #218fd8;
+}
+
+.btn:active {
+    background-color: #1283ce;
+}

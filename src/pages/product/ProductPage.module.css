@@ -1,0 +1,73 @@
+.page {
+    padding-top: 50px;
+}
+
+.page .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card {
+    display: flex;
+    margin-right: auto;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    margin-bottom: 30px;
+}
+
+.info {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.details {
+    color: #032ce2;
+}
+
+.btns {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
+
+.link-cart {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #5471f1;
+    color: #ffffff;
+    text-transform: capitalize;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.add {
+    width: 50px;
+}
+
+.loader {
+    bottom: 5px;
+    right: 30px;
+}

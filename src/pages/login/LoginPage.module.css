@@ -1,0 +1,76 @@
+.page .container {
+    padding-top: 100px;
+}
+
+.page__innerwrp {
+    background-color: #6eb5e4;
+    color: #fff;
+    padding: 20px 70px;
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid rgb(26, 66, 119);
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #ec3f3f;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 5px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    color: #000;
+    margin-left: auto;
+    border: 1px solid #8292e7;
+    padding: 5px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.input:focus-within {
+    outline: 2px solid #6c7ed8;
+}
+
+.input-error {
+    border: 1px solid #ec3f3f;
+}
+
+.input::placeholder {
+    opacity: 0.8;
+    color: #6eb5e4;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #1283ce;
+    padding: 5px 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(6, 29, 47, 0.2);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #218fd8;
+}
+
+.btn:active {
+    background-color: #1283ce;
+}
